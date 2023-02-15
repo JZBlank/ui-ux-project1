@@ -29,7 +29,7 @@ export default function App() {
     </div>
   );
 }
-
+const navStyle = {textDecoration: "none", color: "blue"};
 function Layout() {
   return (
     <div>
@@ -38,19 +38,19 @@ function Layout() {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link style={navStyle}to="/">Home</Link>
           </li>
           <li>
-            <Link to="/lodging">Lodging</Link>
+            <Link style={navStyle} to="/lodging">Lodging</Link>
           </li>
           <li>
-            <Link to="/restaurants">Restaurants</Link>
+            <Link style={navStyle} to="/restaurants">Restaurants</Link>
           </li>
           <li>
-            <Link to="/attractions">Attractions</Link>
+            <Link style={navStyle} to="/attractions">Attractions</Link>
           </li>
           <li>
-            <Link to="/nothing-here">Nothing Here</Link>
+            <Link style={navStyle} to="/nothing-here">Nothing Here</Link>
           </li>
         </ul>
       </nav>

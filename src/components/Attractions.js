@@ -3,7 +3,7 @@
 function Attractions() {
   return (
     <div className="content">
-      This page will have information on Glove World, Jellyfishing, and Sandy's Treedome.
+      This page will have information on Glove World, Jellyfishing, and Goo Lagoon.
     </div>
   );
 }
