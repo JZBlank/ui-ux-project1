@@ -11,7 +11,6 @@ import { Routes, Route, Outlet, Link } from "react-router-dom";
 export default function App() {
   return (
     <div className="App">
-      <h1>Welcome to Project One!</h1>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Homepage />} />
@@ -38,7 +37,7 @@ function Layout() {
       <nav>
         <ul>
           <li>
-            <Link style={navStyle}to="/">Home</Link>
+            <Link style={navStyle} to="/">Home</Link>
           </li>
           <li>
             <Link style={navStyle} to="/lodging">Lodging</Link>
