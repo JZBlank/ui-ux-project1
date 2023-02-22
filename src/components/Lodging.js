@@ -1,13 +1,15 @@
 import './css/Lodging.css';
 import spongehouse from './img/spongebobs-house.webp'
-import pathouse from './img/patricks-house.webp'
+import pathouse from './img/patricks-house.jpeg'
 import squidhouse from './img/squidwards-house.png'
 function Lodging() {
   return (
-    <div >
-      <h1>Lodging</h1>
-      <h3>See what the best of Bikini Bottom has to offer for your stay!</h3>
-      <div className="content">
+    <div className='main'>
+      <div className='header'> 
+        <h1>Lodging</h1>
+        <h3>See what the best of Bikini Bottom has to offer for your stay!</h3>
+      </div>
+      <div className="boxes">
         <div className="spongebob">
           <img src={spongehouse} alt="spongebob house" />
           <p>
@@ -30,7 +32,7 @@ function Lodging() {
           <img src={pathouse} alt="patrick house" />
           <p>
             Located at 120 Conch Street, the house is a large brown rock with a tan arrow-shaped weather vane 
-            on top. Like a door, the rock has hinges to open and close.Ammenities include a gray CRT TV, 
+            on top. Like a door, the rock has hinges to open and close. Ammenities include a gray CRT TV, 
             a green chair, a lamp with a yellow lampshade, a gray telephone, a brown barrel, 
             and a bed with a wooden bed frame and green blanket. You can also 
             use the sand to make furniture as needed. 
