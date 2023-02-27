@@ -1,5 +1,4 @@
 .main {
-    background-color: lightcyan;
     text-align: center;
     color: blue
 }
@@ -8,24 +7,6 @@
     font-family: "SpongeboyRegular";
 }
 
-img {
-    border-radius: 5px;
-    height: 400px;
-    width: 285px;
-    object-fit: cover;
-    margin: 20px 0px;
-}
-
-p {
-    background-color: lightblue;
-    color: blue;
-    font-size: 1.3rem;
-    border-radius: 5px;
-    max-width: 30%;
-    min-width: 285px;
-    margin: 20px 0px;
-    padding: 8px;
-}
 
 .spongebob, .patrick, .squidward {
     display: flex;

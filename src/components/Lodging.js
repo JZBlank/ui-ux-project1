@@ -1,7 +1,5 @@
 import './css/Lodging.css';
-import spongehouse from './img/spongebobs-house.webp'
-import pathouse from './img/patricks-house.jpeg'
-import squidhouse from './img/squidwards-house.png'
+import canadaBackground from './img/homepage_canada.jpg';
 function Lodging() {
   return (
     <div className='main'>
@@ -11,7 +9,7 @@ function Lodging() {
       </div>
       <div className="boxes">
         <div className="spongebob">
-          <img src={spongehouse} alt="spongebob house" />
+          <img src={canadaBackground} alt="spongebob house" />
           <p>
             Located at 124 Conch Street, this pineapple under the sea is an absolute gem!
             The house is three stories high and fully furnished. There is a garage in the back of the house 
@@ -20,7 +18,7 @@ function Lodging() {
           </p>
         </div>
         <div className="squidward">
-          <img src={squidhouse} alt="squidwards house" />
+          <img src={canadaBackground} alt="squidwards house" />
           <p>
             Located at 122 Conch Street, this Easter Island head is a great place to stay. The ground floor consists 
             of three adjoining rooms. the one at the front being the living room. The living room consists of a 
@@ -29,7 +27,7 @@ function Lodging() {
           </p>
         </div>
         <div className="patrick">
-          <img src={pathouse} alt="patrick house" />
+          <img src={canadaBackground} alt="patrick house" />
           <p>
             Located at 120 Conch Street, the house is a large brown rock with a tan arrow-shaped weather vane 
             on top. Like a door, the rock has hinges to open and close. Ammenities include a gray CRT TV, 
