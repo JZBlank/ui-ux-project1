@@ -1,12 +1,10 @@
 .main {
-    text-align: center;
-    color: blue
+    background-color: lightcyan;
 }
 
 .header h1 {
     font-family: "SpongeboyRegular";
 }
-
 
 .spongebob, .patrick, .squidward {
     display: flex;
