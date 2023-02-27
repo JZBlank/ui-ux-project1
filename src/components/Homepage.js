@@ -12,7 +12,6 @@ const buttonStyle2 = {
   backgroundColor: 'rgb(' + 255 + ',' + 77 + ',' + 0 + ')',
 }
 
-
 function Homepage() {
   const [style, setStyle] = useState();
 
