@@ -9,7 +9,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: lightblue;
+  background-color: rgb(110, 156, 235);
 }
 
 li {
@@ -20,5 +20,6 @@ li {
 }
 
 li:hover {
-  background-color: yellow;
+  background-color: rgb(255,77,0);
+  cursor: pointer;
 }

@@ -13,13 +13,18 @@
 }
 
 .welcome{
-    padding: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
     flex: 50%;
+    height: 450px;
+    background-color: rgb(230, 227, 227);
 }
 
 .welcome_container img{
     flex: 50%;
     width: 50%;
+    margin-top: -1.5px;
+    height: 450px;
 }
 
 .welcome h1{
@@ -50,10 +55,40 @@
     cursor: pointer;
 }
 
+
+/* FEATURED LOCATIONS */
+.canada_info{
+    height: 500px;
+    text-align: center;
+}
+
+.canada_title{
+    margin-top: -1px;
+    background-color: black;
+
+}
+
+.canada_locations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.featured_container{
+    border: 1px solid blue;
+    height: 300px;
+    width: 350px;
+    flex: 30%;
+    margin-top: 50px;
+}
+
+
 /* RESPONSIVE ELEMENTS */ 
 
 @media (max-width: 800px) {
-    .welcome , .welcome_container img{
+    .welcome , .welcome_container img, .featured_container{
       flex: 100%;
       padding: 30px;
     }

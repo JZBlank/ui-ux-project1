@@ -1,10 +1,12 @@
 import './App.css';
 
+
 import Homepage from './components/Homepage';
 import Lodging from './components/Lodging';
 import Attractions from './components/Attractions';
 import Restaurants from './components/Restaurants';
 
+import { useState } from 'react';
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 
 
@@ -28,8 +30,10 @@ export default function App() {
     </div>
   );
 }
-const navStyle = {textDecoration: "none", color: "black"};
+
+const navStyle = {textDecoration: "none", color: "white"};
 function Layout() {
+
   return (
     <div>
       {/* A "layout route" is a good place to put markup you want to
