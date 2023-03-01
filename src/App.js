@@ -31,7 +31,7 @@ export default function App() {
   );
 }
 
-const navStyle = {textDecoration: "none", color: "white"};
+const navStyle = {textDecoration: "none", color: "black"};
 function Layout() {
 
   return (

@@ -1,5 +1,5 @@
 import './css/Homepage.css';
-import canada from './img/canada_background.jpg';
+import canada from './img/homepage_canada.jpg';
 import { useState } from 'react';
 
 
