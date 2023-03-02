@@ -1,6 +1,6 @@
 import './css/Lodging.css';
 
-import canadaBackground from './img/homepage_canada.jpg';
+import canadaBackground from './img/homepage_images/homepage_canada.jpg';
 
 function Lodging() {
   return (

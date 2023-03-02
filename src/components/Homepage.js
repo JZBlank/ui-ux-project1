@@ -1,9 +1,12 @@
 import './css/Homepage.css';
-import canada from './img/homepage_canada.jpg';
 
-import toronto from './img/featured_locations/featured_toronto.jpg';
-import vancouver from './img/featured_locations/featured_vancouver.jpg';
-import montreal from './img/featured_locations/featured_montreal.jpg';
+// Homepage Canada Background Images
+import canada from './img/homepage_images/homepage_canada.jpg';
+
+// Featured Location Images
+import toronto from './img/featured_locations/toronto/featured_toronto.jpg';
+import vancouver from './img/featured_locations/vancouver/featured_vancouver.jpg';
+import montreal from './img/featured_locations/montreal/featured_montreal.jpg';
 
 
 import { useState } from 'react';

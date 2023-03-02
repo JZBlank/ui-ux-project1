@@ -1,6 +1,5 @@
 import './App.css';
 
-
 import Homepage from './components/Homepage';
 import Lodging from './components/Lodging';
 import Attractions from './components/Attractions';
