@@ -1,12 +1,18 @@
 import './css/Homepage.css';
 import canada from './img/homepage_canada.jpg';
+
+import toronto from './img/featured_locations/featured_toronto.jpg';
+import vancouver from './img/featured_locations/featured_vancouver.jpg';
+import montreal from './img/featured_locations/featured_montreal.jpg';
+
+
 import { useState } from 'react';
 
 
-function FeaturedLocationContainer(){
+function FeaturedLocationContainer(props){
   return <div>
       <div className="featured_container">
-        <img></img>
+        <img src={props.img}></img>
         <p></p>
       </div>
   </div>
@@ -58,9 +64,9 @@ function Homepage() {
         </div>
 
         <div className="canada_locations">
-          <FeaturedLocationContainer/>
-          <FeaturedLocationContainer/>
-          <FeaturedLocationContainer/>
+          <FeaturedLocationContainer img={toronto} />
+          <FeaturedLocationContainer img={vancouver}/>
+          <FeaturedLocationContainer img={montreal}/>
         </div>
 
       </div>
