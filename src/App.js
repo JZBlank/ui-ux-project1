@@ -1,6 +1,5 @@
 import './App.css';
 
-
 import Homepage from './components/Homepage';
 import Lodging from './components/Lodging';
 import Attractions from './components/Attractions';
@@ -54,8 +53,6 @@ function Layout() {
           </li>
         </ul>
       </nav>
-
-      <hr />
 
       {/* An <Outlet> renders whatever child route is currently active,
           so you can think about this <Outlet> as a placeholder for
