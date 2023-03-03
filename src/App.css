@@ -4,19 +4,30 @@
   padding: 0;
 }
 
+nav{
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  z-index: 2;  
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  align-items: end;
+}
+
+
+li:first-child{
+  background-color: rgb(255,77,0);
 }
 
 li {
-  float: left;
-  display: block;
-  text-align: center;
   padding: 14px 16px;
+  flex: 20%;
 }
 
 li:hover {

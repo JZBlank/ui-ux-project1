@@ -59,8 +59,6 @@ function Homepage() {
           </p>
           <button style={style} onMouseEnter={handleHover} onMouseLeave={handleHover2} >LEARN MORE</button>
         </div>
-
-        
       </div>
       
 
@@ -74,10 +72,7 @@ function Homepage() {
           <FeaturedLocationContainer img={vancouver} text={"Vancouver"}/>
           <FeaturedLocationContainer img={montreal} text={"Montreal"}/>
         </div>
-
       </div>
-
-
     </div>
   );
 }
