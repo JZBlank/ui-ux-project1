@@ -15,11 +15,14 @@ import { useState } from 'react';
 function FeaturedLocationContainer(props){
   return <div>
       <div className="featured_container">
-        <img src={props.img}></img>
-        <p></p>
+        <div className="featured_image_container">
+          <img src={props.img}></img>
+        </div>
+        <p>{props.text}</p>
       </div>
   </div>
 }
+
 
 
 const buttonStyle = {
@@ -67,9 +70,9 @@ function Homepage() {
         </div>
 
         <div className="canada_locations">
-          <FeaturedLocationContainer img={toronto} />
-          <FeaturedLocationContainer img={vancouver}/>
-          <FeaturedLocationContainer img={montreal}/>
+          <FeaturedLocationContainer img={toronto} text={"Toronto"} />
+          <FeaturedLocationContainer img={vancouver} text={"Vancouver"}/>
+          <FeaturedLocationContainer img={montreal} text={"Montreal"}/>
         </div>
 
       </div>
