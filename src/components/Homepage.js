@@ -15,11 +15,14 @@ import { useState } from 'react';
 function FeaturedLocationContainer(props){
   return <div>
       <div className="featured_container">
-        <img src={props.img}></img>
-        <p></p>
+        <div className="featured_image_container">
+          <img src={props.img}></img>
+        </div>
+        <p>{props.text}</p>
       </div>
   </div>
 }
+
 
 
 const buttonStyle = {
@@ -50,14 +53,11 @@ function Homepage() {
         <div className="welcome">
           <h1>Canada</h1>
           <h2>Discover Canada - Adventure Awaits!</h2>
-          <p>Canada is a vast and diverse country with a unique blend of natural beauty, multiculturalism, and innovative spirit.
-            From the rugged coastlines of British Columbia to the majestic Rocky Mountains of Alberta, the charming small towns
+          <p>From the rugged coastlines of British Columbia to the majestic Rocky Mountains of Alberta, the charming small towns
             of the Maritimes to the bustling cities of Toronto and Vancouver, Canada has something for everyone.
           </p>
           <button style={style} onMouseEnter={handleHover} onMouseLeave={handleHover2} >LEARN MORE</button>
         </div>
-
-        
       </div>
       
 
@@ -67,14 +67,11 @@ function Homepage() {
         </div>
 
         <div className="canada_locations">
-          <FeaturedLocationContainer img={toronto} />
-          <FeaturedLocationContainer img={vancouver}/>
-          <FeaturedLocationContainer img={montreal}/>
+          <FeaturedLocationContainer img={toronto} text={"Toronto"} />
+          <FeaturedLocationContainer img={vancouver} text={"Vancouver"}/>
+          <FeaturedLocationContainer img={montreal} text={"Montreal"}/>
         </div>
-
       </div>
-
-
     </div>
   );
 }

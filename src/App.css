@@ -4,18 +4,29 @@
   padding: 0;
 }
 
+nav{
+  background-color: rgba(255, 255, 255, 0);
+  position: fixed;
+  z-index: 3;  
+  top: 0px;
+  width: 100%;
+  justify-content: flex-end;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0);
+  display: flex;
+}
+
+ul li:first-child{
+  margin-right: auto;
 }
 
 li {
-  float: left;
-  display: block;
-  text-align: center;
   padding: 14px 16px;
 }
 
