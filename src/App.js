@@ -31,7 +31,6 @@ export default function App() {
 }
 
 const navStyle = {textDecoration: "none", color: "black" };
-const navStyle2 = {textDecoration: "none", color: "white" };
 function Layout() {
 
   return (
@@ -41,7 +40,7 @@ function Layout() {
       <nav>
         <ul>
           <li>
-            <Link style={navStyle2} to="/">Home</Link>
+            <Link style={navStyle} to="/">Home</Link>
           </li>
           <li>
             <Link style={navStyle} to="/lodging">Lodging</Link>
