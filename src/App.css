@@ -29,8 +29,3 @@ ul li:first-child{
 li {
   padding: 14px 16px;
 }
-
-li:hover {
-  background-color: rgb(255,77,0);
-  cursor: pointer;
-}

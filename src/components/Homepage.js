@@ -11,7 +11,6 @@ import montreal from './img/featured_locations/montreal/featured_montreal.jpg';
 
 import { useState } from 'react';
 
-
 function FeaturedLocationContainer(props){
   return <div>
       <div className="featured_container">
@@ -56,12 +55,13 @@ function Homepage() {
           <p>From the rugged coastlines of British Columbia to the majestic Rocky Mountains of Alberta, the charming small towns
             of the Maritimes to the bustling cities of Toronto and Vancouver, Canada has something for everyone.
           </p>
-          <button style={style} onMouseEnter={handleHover} onMouseLeave={handleHover2} >LEARN MORE</button>
+          <a href="#locations" style={style} onMouseEnter={handleHover} onMouseLeave={handleHover2} >Learn More</a>
+          
         </div>
       </div>
       
 
-      <div className="canada_info">
+      <div className="canada_info" id="locations">
         <div className="canada_title">
           <h1 style={{paddingTop: "20px"}}>Featured Locations</h1>
         </div>

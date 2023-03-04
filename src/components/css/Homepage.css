@@ -1,7 +1,13 @@
  *{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
- }
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
 /* WELCOME CONTAINER */
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
 
 .welcome_container{
     display: flex;
@@ -48,7 +54,7 @@
     margin: 20px 0px;
 }
 
-.welcome button{
+.welcome a{
     font-size: 1.3vw;
     margin-top: 30px;
     padding: 10px;
@@ -68,11 +74,11 @@
     position: relative;
 }
 
-
 /* FEATURED LOCATIONS */
 .canada_info{
     height: 500px;
     text-align: center;
+    margin: auto;
 }
 
 .canada_title{
@@ -96,6 +102,12 @@
     box-shadow: -5px 10px 10px #5e5e5e67;
     border-radius: 10px;
     flex-wrap: wrap;
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.featured_container:hover{
+    transform: scale(1.3);
 }
 
 .featured_container .featured_image_container img{
