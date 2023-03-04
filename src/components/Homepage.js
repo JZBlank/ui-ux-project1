@@ -22,8 +22,6 @@ function FeaturedLocationContainer(props){
   </div>
 }
 
-
-
 const buttonStyle = {
   backgroundColor: "red"
 }
