@@ -5,6 +5,9 @@ import Lodging from './components/Lodging';
 import Attractions from './components/Attractions';
 import Restaurants from './components/Restaurants';
 
+// Images
+import canadaFlag from './components/img/homepage_images/canada_flag.png';
+
 import { useState } from 'react';
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 
@@ -30,7 +33,8 @@ export default function App() {
   );
 }
 
-const navStyle = {textDecoration: "none", color: "black" };
+const navStyle = {textDecoration: "none", color: "white", fontSize: "15px", padding: "15px", borderRadius: "0px", backgroundColor: 'rgb(' + 255 + ',' + 77 + ',' + 0 + ')' };
+const navStyle2 = {textDecoration: "none", color: "white", padding: "10px" };
 function Layout() {
 
   return (
@@ -40,10 +44,10 @@ function Layout() {
       <nav>
         <ul>
           <li>
-            <Link style={navStyle} to="/">Home</Link>
+            <Link style={navStyle2} to="/"><img src={canadaFlag} height="30px" width="30px"/></Link>
           </li>
           <li>
-            <Link style={navStyle} to="/lodging">Lodging</Link>
+            <Link style={navStyle} to="/lodging">Hotels</Link>
           </li>
           <li>
             <Link style={navStyle} to="/restaurants">Restaurants</Link>
