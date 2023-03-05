@@ -22,7 +22,7 @@ function RestaurantInfo(props){
 
     <RestaurantBox 
       img={props.img1} 
-      index={"-1"}
+      index={props.index}
       text={props.text1}>
     </RestaurantBox >
 
@@ -44,6 +44,7 @@ function Restaurants() {
       </div>
 
       <RestaurantInfo 
+        index="-1"
         color="white" 
         locationName="Toronto" 
         restaurantName="Aloette Restaurant"
@@ -52,6 +53,7 @@ function Restaurants() {
       ></RestaurantInfo>
 
       <RestaurantInfo 
+        index="1"
         color={'rgb(' + 210 + ',' + 210 + ',' + 210 + ')'} 
         locationName="Vancouver" 
         restaurantName="Chambar Restaurant"
@@ -60,6 +62,7 @@ function Restaurants() {
       ></RestaurantInfo>
 
       <RestaurantInfo 
+        index="-1"
         color="white"
         locationName="Montreal" 
         restaurantName="Nora Gray"
