@@ -1,7 +1,7 @@
 import './App.css';
 
 import Homepage from './components/Homepage';
-import Lodging from './components/Lodging';
+import Hotels from './components/Hotels';
 import Attractions from './components/Attractions';
 import Restaurants from './components/Restaurants';
 
@@ -18,7 +18,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Homepage />} />
-          <Route path="lodging" element={<Lodging />} />
+          <Route path="hotels" element={<Hotels />} />
           <Route path="restaurants" element={<Restaurants />} />
           <Route path="attractions" element={<Attractions />} />
 
@@ -47,7 +47,7 @@ function Layout() {
             <Link style={navStyle2} to="/"><img src={canadaFlag} height="30px" width="30px"/></Link>
           </li>
           <li>
-            <Link style={navStyle} to="/lodging">Hotels</Link>
+            <Link style={navStyle} to="/hotels">Hotels</Link>
           </li>
           <li>
             <Link style={navStyle} to="/restaurants">Restaurants</Link>
