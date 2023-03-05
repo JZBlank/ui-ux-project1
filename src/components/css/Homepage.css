@@ -103,7 +103,6 @@ a{
     border-radius: 10px;
     flex-wrap: wrap;
     transition: transform .2s;
-    cursor: pointer;
 }
 
 .featured_container:hover{
